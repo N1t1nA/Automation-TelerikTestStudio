@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<End_2_End_Test_Case>
+
+  <E2E_Purchase_FR_IA_AM_Transfer>
+    <Functionality>E2EFullyReceived</Functionality>
+    <Configuration_Page>OM Configuration</Configuration_Page>
+    <Screen_1>Screen</Screen_1>
+    <Screen>OM Configuration</Screen>
+    <OM_Configuration>Basware Oyj</OM_Configuration>
+    <Invoice_Line_Field>ProductCode</Invoice_Line_Field>
+    <Product_Name>samsung-54</Product_Name>
+    <Purchase_Requisition>Samsung 54 Cms LED Monitor</Purchase_Requisition>
+    <!--<Account_Code>161110</Account_Code>-->
+    <Account_Code>401100</Account_Code>
+    <Cost_Center_Code>6240</Cost_Center_Code>
+    <Array_Index_1>1</Array_Index_1>
+    <Organization_Unit>BW00</Organization_Unit>
+    <!--<Invoice_Type>Intercompany</Invoice_Type>-->
+    <Invoice_Type>Invoice</Invoice_Type>
+    <Header_Name>Invoice number</Header_Name>
+    <Supplier_Code>Supplier Name</Supplier_Code>
+    <Tax_Percentage>22</Tax_Percentage>
+    <!--Test Data Change<Tax_Code>S1</Tax_Code>-->
+    <Tax_Code>S3</Tax_Code>
+    <Image_Browse_Button>AutomationId=BrowseButton</Image_Browse_Button>
+    <Tax_Sum>200</Tax_Sum>
+    <Tax_Sum_FR>31.18</Tax_Sum_FR>
+    <Tax_Sum_FF>8</Tax_Sum_FF>
+    <Text_20>11</Text_20>
+    <Pending_Tab>Pending</Pending_Tab>
+    <Button_Text>Refresh</Button_Text>
+    <Search_History_Comment_ListBox>AutomationId=HistoryAndDetailsTab</Search_History_Comment_ListBox>
+    <History_Comment_ListBox>AutomationId=HistoryAndCommentsTab</History_Comment_ListBox>
+    <Iteration>4</Iteration>
+    <Status>Valid</Status>
+    <Gross_Total>Gross Total</Gross_Total>
+    <Purchase_Order>Purchase Order</Purchase_Order>
+    <Invoice_Final_Status>Transfer in progress</Invoice_Final_Status>
+    <Invoice_Final_Status1>Ready for transfer</Invoice_Final_Status1>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <Purchase_Requisition_Ordered_Status>Ordered</Purchase_Requisition_Ordered_Status>
+    <Purchase_Requisition_Received_Status>Received</Purchase_Requisition_Received_Status>
+    <Select_Tab>Invoicing</Select_Tab>
+    <Select_Pricing_Tab>Pricing</Select_Pricing_Tab>
+    <Array_Index_2>3</Array_Index_2>
+    <Verify_History_1>Automatic matching completed</Verify_History_1>
+    <Verify_History_2>Coding rows re-generated</Verify_History_2>
+    <Verify_History_3>Purchase orders associated</Verify_History_3>
+    <Document_Type>Goods Receipt</Document_Type>
+    <Document_Type_Number>GR</Document_Type_Number>
+    <ComboBox>All</ComboBox>
+    <Image_Comment>Image added</Image_Comment>
+    <Module_Name>IA</Module_Name>
+    <Product_TabItem>productTab</Product_TabItem>
+    <PR_Header_Name_Status>Status</PR_Header_Name_Status>
+    <PR_InWorkflow>In workflow</PR_InWorkflow>
+    <Header_Name_Current_Recipient>Current Recipient</Header_Name_Current_Recipient>
+    <!--<Current_Recipient_Name>Lauhamo Seppo</Current_Recipient_Name>-->
+    <Current_Recipient_Name>Pulli Jari</Current_Recipient_Name>
+
+    <!--Below xml use for Find Forms-->
+    <Find_Forms_TabItem>findFormTab</Find_Forms_TabItem>
+    <Find_Forms_Details>productdetailTab</Find_Forms_Details>
+    <Find_Forms_Name>TestAutomation</Find_Forms_Name>
+    <Purchasing_Category>006</Purchasing_Category>
+    <Price_Type></Price_Type>
+    <Unit_Price>100.00</Unit_Price>
+    <Quantity_Unit>KPA</Quantity_Unit>
+    <Currency_Code>EUR</Currency_Code>    
+    <Price_Source></Price_Source>
+    <!--Find_Forms_SupplierCode>CD110032</Find_Forms_SupplierCode>-->
+    <Find_Forms_SupplierCode>10516</Find_Forms_SupplierCode>
+
+  </E2E_Purchase_FR_IA_AM_Transfer>
+
+  <E2E_Purchase_PR_IA_MM_Transfer>
+    <Functionality>E2EPartiallyReceived</Functionality>
+    <Configuration_Page>OM Configuration</Configuration_Page>
+    <Screen_1>Screen</Screen_1>
+    <Screen>OM Configuration</Screen>
+    <OM_Configuration>Basware Oyj</OM_Configuration>
+    <Invoice_Line_Field>ProductCode</Invoice_Line_Field>
+    <Product_Name>samsung-54</Product_Name>
+    <Purchase_Requisition>Samsung 54 Cms LED Monitor</Purchase_Requisition>
+    <Account_Code>161110</Account_Code>
+    <Cost_Center_Code>6240</Cost_Center_Code>
+    <Array_Index_1>1</Array_Index_1>
+    <Organization_Unit>BW00</Organization_Unit>
+    <Invoice_Type>Intercompany</Invoice_Type>
+    <Header_Name>Invoice number</Header_Name>
+    <Supplier_Code>Supplier Name</Supplier_Code>
+    <Tax_Code>S1</Tax_Code>
+    <Tax_Sum>200</Tax_Sum>
+    <Pending_Tab>Pending</Pending_Tab>
+    <Partly_Received>PARTLY RECEIVED</Partly_Received>
+    <Header_Name_GR>Status</Header_Name_GR>
+    <Iteration_GR>1</Iteration_GR>
+    <GR_Status>PartlyReceived</GR_Status>
+    <Button_Text>Refresh</Button_Text>
+    <Search_History_Comment_ListBox>AutomationId=HistoryAndDetailsTab</Search_History_Comment_ListBox>
+    <History_Comment_ListBox>AutomationId=HistoryAndCommentsTab</History_Comment_ListBox>
+    <Iteration>4</Iteration>
+    <Search_Option>SEARCH</Search_Option>
+    <Gross_Total>Gross Total</Gross_Total>
+    <Purchase_Order>Purchase Order</Purchase_Order>
+    <Invoice_Final_Status>In manual order matching</Invoice_Final_Status>
+    <Header_Name_Status>Sub-status</Header_Name_Status>
+    <Purchase_Requisition_Ordered_Status>Ordered</Purchase_Requisition_Ordered_Status>
+    <Purchase_Requisition_Received_Status>Received</Purchase_Requisition_Received_Status>
+    <Select_Tab>Invoicing</Select_Tab>
+    <Invoice_Transfer_Status>Transfer failed</Invoice_Transfer_Status>
+    <Array_Index_2>5</Array_Index_2>
+    <Image_Browse_Button>AutomationId=BrowseButton</Image_Browse_Button>
+    <Verify_History_1>Matching confirmed by user</Verify_History_1>
+    <Verify_History_2>Coding rows removed</Verify_History_2>
+    <Verify_History_3>Purchase orders associated</Verify_History_3>
+    <Verify_History_4>Transfer started</Verify_History_4>
+    <Document_Type>Goods Receipt</Document_Type>
+    <Document_Type_Number>GR</Document_Type_Number>
+    <ComboBox>All</ComboBox>
+    <Image_Comment>Image added</Image_Comment>
+    <Module_Name>IA</Module_Name>
+  </E2E_Purchase_PR_IA_MM_Transfer>
+  
+  <E2E_InvoiceWorkflow_HA_RA_AA_Transfer>
+    <Functionality>E2InvoiceWorkflow</Functionality>   
+    <OM_Configuration>Basware Oyj</OM_Configuration>          
+    <Account_Code_Row1>401100</Account_Code_Row1>
+    <!--<Account_Code_Row1>161110</Account_Code_Row1>-->
+    <Account_Code_Row2>160000</Account_Code_Row2>    
+    <costCenterCode_Row1>6210</costCenterCode_Row1>
+    <costCenterCode_Row2>6230</costCenterCode_Row2>        
+    <Array_Index_1>1</Array_Index_1>
+    <Organization_Unit>BW00</Organization_Unit>
+    <!--<Invoice_Type>Purchase invoice</Invoice_Type>-->
+    <Invoice_Type>Invoice</Invoice_Type>
+    <Header_Name>Invoice Number</Header_Name>   
+    <Supplier_Code>10584</Supplier_Code>
+    <Tax_Percentage>22</Tax_Percentage>
+    <Tax_Code>S0</Tax_Code>
+    <Image_Browse_Button>AutomationId=BrowseButton</Image_Browse_Button>
+    <!--<Tax_Sum>200</Tax_Sum>-->
+    <Tax_Sum>0</Tax_Sum>
+    <Net_Sum>200</Net_Sum>
+    <!--<Gross_Sum>400</Gross_Sum>-->
+    <Gross_Sum>200</Gross_Sum>
+    <Number_Of_Rows>1</Number_Of_Rows>
+    <Reviewer>Tillqvist Juha</Reviewer>
+    <FirstRowApprover>Salminen Aki</FirstRowApprover>
+    <SecondRowApprover>Antikanen Jari</SecondRowApprover>
+    <HeaderApprover>Lassila Eliisa</HeaderApprover>
+    <!--<AdditionalApproval>Sihvo Ilkka</AdditionalApproval>-->
+    <AdditionalApproval>Tihilä Esa</AdditionalApproval>
+    <Review_Button_AutomationID>IA.UIElements.MyTasksToolbar.Review_Button_Text</Review_Button_AutomationID>
+    <Confirm_Button_AutomationID>IA.UIElements.MyTasksToolbar.Confirm_Button_Text</Confirm_Button_AutomationID>
+    <Approved_Button_AutomationID>IA.UIElements.MyTasksToolbar.HeaderApprove_Button_Text</Approved_Button_AutomationID>
+    <AdminApproved_Button_AutomationID>IAUIElementsMyTasksToolbarAdminApproveButtonTextActionbuttoncontrol</AdminApproved_Button_AutomationID>
+    <Button_Text>Refresh</Button_Text>
+    <Search_History_Comment_ListBox>AutomationId=HistoryAndDetailsTab</Search_History_Comment_ListBox>
+    <History_Comment_ListBox>AutomationId=HistoryAndCommentsTab</History_Comment_ListBox>
+    <Iteration>10</Iteration>
+    <Status>Valid</Status>
+    <Gross_Total>Gross Total</Gross_Total>    
+    <Invoice_Final_Status>Transfer in progress</Invoice_Final_Status>
+    <Invoice_Final_Status1>Ready for transfer</Invoice_Final_Status1>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <Array_Index_2>3</Array_Index_2>    
+    <ComboBox>All</ComboBox>
+    <Image_Comment>Image added</Image_Comment>
+    <Module_Name>IA</Module_Name>    
+    <Forwarded_Comment>Invoice forwarded to Sihvo Ilkka</Forwarded_Comment>
+    <Reviewer_Comment>Invoice sent for In Row Approval</Reviewer_Comment>
+    <Add_Comment>Add Comment</Add_Comment>
+    <AttachmentButton_AutomationID>attachementTab</AttachmentButton_AutomationID>
+    <AddAttachment_Description>Attachment added for this Invoice</AddAttachment_Description>
+    <Attachment_Comment>Attachment added</Attachment_Comment>
+    <Put_On_Hold>Put On Hold</Put_On_Hold>
+    <Invoice_PutOnHold_Comment>Invoice Put On Hold</Invoice_PutOnHold_Comment>
+    <ReleaseButton_AutomationID>IA.UIElements.MyTasksToolbar.ReleaseFromHold_Button_Text</ReleaseButton_AutomationID>
+    <Release_Comment>Invoice Release from hold</Release_Comment>
+    <History_And_Comment_TabItem>MY_TASKS_PAYMENT_PLAN</History_And_Comment_TabItem>
+
+    <File_Name>Sample.tiff</File_Name>
+    <Approve_ToolBar_Button>Approve</Approve_ToolBar_Button>
+
+  </E2E_InvoiceWorkflow_HA_RA_AA_Transfer>
+
+  <E2E_Invoice_ManualMatch_PaymentPlan>
+    <Functionality>Invoice_ManualMatch_PaymentPlan</Functionality>
+    <Organization_Unit>BW00</Organization_Unit>
+    <!--<Invoice_Type>Intercompany</Invoice_Type>-->
+    <Invoice_Type>Invoice</Invoice_Type>
+    <PaymentPlan_Type>Budget-based</PaymentPlan_Type>
+    <Supplier_Code>10221</Supplier_Code>
+    <Gross_Sum>60</Gross_Sum>   
+    <Tax_Sum>0</Tax_Sum>
+    <BudgetRow_TabItem>Budget</BudgetRow_TabItem>
+    <!--<Plan_Reference_Name>TestAutomation_PaymentPlan</Plan_Reference_Name>-->
+    <Currency>EUR</Currency>
+    <PaymentTermCode>14</PaymentTermCode>
+    <Budget>100</Budget>
+    <Invoice_lines>2</Invoice_lines>
+    <Invoice_Total>40</Invoice_Total>
+    <Coding_Row_TabItem>Coding Rows</Coding_Row_TabItem>
+    <Percentage>100</Percentage>
+    <Validate_Button>Validate</Validate_Button>
+    <Open_Selected_Button>Open Selected</Open_Selected_Button>
+    <Send_To_Process_Button>Send to Process</Send_To_Process_Button>        
+    <Pending_Tab>Pending</Pending_Tab>
+    <Payment_PutOnHold_Comment>Payment Plans Put On Hold</Payment_PutOnHold_Comment>
+    <Put_On_Hold>Put On Hold</Put_On_Hold>
+    <Forward>FORWARD</Forward>
+    <Review_Button_AutomationID>IA.UIElements.MyTasksToolbar.Review_Button_Text</Review_Button_AutomationID>
+    <Confirm_Button_AutomationID>IA.UIElements.MyTasksToolbar.Confirm_Button_Text</Confirm_Button_AutomationID>
+    <MyTasks_PaymentPlan_Reveiw_Button_AutomationID>PP.Views.MyTasksToolbar.Review_Button_Text</MyTasks_PaymentPlan_Reveiw_Button_AutomationID>
+    <MyTasks_PaymentPlan_Reject_Button_AutomationID>PP.Views.MyTasksToolbar.Reject_Button_Text</MyTasks_PaymentPlan_Reject_Button_AutomationID>
+    <MyTasks_PaymentPlan_Approved_Button_AutomationID>PP.Views.MyTasksToolbar.Approve_Button_Text</MyTasks_PaymentPlan_Approved_Button_AutomationID>
+    <Release_Comment>Task released from hold</Release_Comment>
+    <History_And_Comments_TabItems>PAYMENT_PLAN</History_And_Comments_TabItems>
+    <Reject_Comment>Insufficient Information about the Payment Plan</Reject_Comment>
+    <Reject_Reason_Combo_Box_Item>Other</Reject_Reason_Combo_Box_Item>
+    <Recipients>Ojala Jari</Recipients>
+    <!--<Recipient2>Tavi Jari</Recipient2>-->
+    <Recipient2>Sylvander Matti</Recipient2>
+    <!--<Recipient_Pöllänen_Jari>Pöllänen Jari</Recipient_Pöllänen_Jari>-->
+    <Recipient_Pöllänen_Jari>Lehtinen Jari</Recipient_Pöllänen_Jari>
+    <Recipient_Lampinen_Jari>Lampinen Jari</Recipient_Lampinen_Jari>
+    <Image_Browse_Button>AutomationId=BrowseButton</Image_Browse_Button>
+    <PaymentPlan_PlanDetails_Button>Plan Details</PaymentPlan_PlanDetails_Button>
+    <PaymentPlan_UnMatch_Button>UnMatch</PaymentPlan_UnMatch_Button>
+    <PaymentPlan_Match_Button>Match</PaymentPlan_Match_Button>
+    <PaymentPlan_Save_Button>Save Invoice</PaymentPlan_Save_Button>
+    <ComboBox>All</ComboBox>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <Header_Name_Status_PaymentPlan>Sub-Status</Header_Name_Status_PaymentPlan>
+    <Status_Active>Active</Status_Active>
+    <Button_Text>Refresh</Button_Text>
+    <Updated_Gross_Sum>40</Updated_Gross_Sum>
+    <Invoice_Final_Status>Transfer in progress</Invoice_Final_Status>
+    <Invoice_Final_Status1>Ready for transfer</Invoice_Final_Status1>
+  </E2E_Invoice_ManualMatch_PaymentPlan>
+
+  <UIMeasurements>
+    <!--Common Users which we are using in a below mentioned scripts-->
+    <Functionality>UIMeasurements</Functionality>
+    <UIMeasurements_LoginUser>3</UIMeasurements_LoginUser>    
+  </UIMeasurements>
+</End_2_End_Test_Case>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<P2PIntegration_TestData>
+  <EditAndValidateDraftInvoice>
+    <TestCase>88873</TestCase>
+    <DraftInvoiceCountifDisabled>0</DraftInvoiceCountifDisabled>
+    <InvoiceStatus>Draft</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode> 
+    <DraftInvoiceNumber>Draft_BW80_0</DraftInvoiceNumber>
+    <ValidateDraftInvoiceNumber>AUTO_Draft_BW80_0</ValidateDraftInvoiceNumber>
+    <Button_Text>Refresh</Button_Text>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>    
+   <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>    
+  </EditAndValidateDraftInvoice> 
+
+  <EditAndValidateInvalidInvoice>
+    <TestCase>88874</TestCase>
+    <InvalidInvoiceCountifDisabled>0</InvalidInvoiceCountifDisabled>
+    <InvoiceStatus>Invalid</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode> 
+    <InvalidInvoiceNumber>Auto_Processed_BW80_0</InvalidInvoiceNumber>
+    <ValidateInvalidInvoiceNumber>AUTO_corrected_BW80_0</ValidateInvalidInvoiceNumber>
+    <Comments>APT Testing</Comments>
+    <Button_Text>Refresh</Button_Text>
+    <Recepient>Ahuja Nitin</Recepient>
+    <RowNumber>0</RowNumber>
+    <CellNumber>0</CellNumber>
+    <Net_Sum>32.79</Net_Sum>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <VerifyFirstStatus>In header review</VerifyFirstStatus>
+    <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>    
+  </EditAndValidateInvalidInvoice>
+
+  <EditAndMatchNoPOFoundInvoicesHeaderROWGR>
+    <TestCase>88876</TestCase>
+    <ManualOrderMatchingCountifDisabled>0</ManualOrderMatchingCountifDisabled>
+    <InvoiceStatus>In manual order matching</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <PurchaseOrderColumn>Purchase Order Number</PurchaseOrderColumn>
+    <OrganizationCode>BW80</OrganizationCode>
+    <InvoiceNumberHEA>Header_0_BW80_0</InvoiceNumberHEA>    
+    <InvoiceNumberPO_HEA_0>HEA_0</InvoiceNumberPO_HEA_0>
+    <PurchaseOrderHEA_2>HEA_2</PurchaseOrderHEA_2>
+    <InvoiceNumberROW>Row_0_BW80_0</InvoiceNumberROW>
+    <InvoiceNumberPO_ROW_0>ROW_0</InvoiceNumberPO_ROW_0>
+    <PurchaseOrderROW_2>ROW_2</PurchaseOrderROW_2>
+    <InvoiceNumberRGR>RowGR_0_BW80_0</InvoiceNumberRGR>
+    <InvoiceNumberPO_RGR_0>RGR_0</InvoiceNumberPO_RGR_0>
+    <PurchaseOrderRGR_2>RGR_2</PurchaseOrderRGR_2>
+    <Comments>APT Testing</Comments>
+    <Button_Text>Refresh</Button_Text>    
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>
+  </EditAndMatchNoPOFoundInvoicesHeaderROWGR>
+
+  <EditInvoicesInWorkflowBatchReview>
+    <TestCase>88877</TestCase>
+    <ExceptionsInvoiceCountifDisabled>0</ExceptionsInvoiceCountifDisabled>
+    <InvoiceStatus>Exceptions</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode> 
+    <ExceptionsInvoiceNumber>ReviewMissingRecipient_BW80_0</ExceptionsInvoiceNumber>
+    <ExceptionsCorrectedInvoiceNumber>AUTO_ReviewMissingRecipient_BW80_0</ExceptionsCorrectedInvoiceNumber>
+    <ExceptionsInvoiceNumberForward>ReviewReferencePerson_BW80_0</ExceptionsInvoiceNumberForward> 
+    <ExceptionsCorrectedInvoiceNumberForward>AUTO_ReviewReferencePerson_BW80_0</ExceptionsCorrectedInvoiceNumberForward>
+    <ProcessID>GeneratedProcess_BW80_ID</ProcessID>
+    <ReferencePerson>Tillqvist Juha</ReferencePerson> 
+    <Comments>APT Testing</Comments>
+    <Button_Text>Refresh</Button_Text>
+    <Recepient>Ahuja Nitin</Recepient>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>  
+    <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>    
+  </EditInvoicesInWorkflowBatchReview>
+
+  <CompleteInvoiceCodingReTransferInvoice>
+    <TestCase>88878</TestCase>
+    <IncompleteForTransferInvoiceCountifDisabled>0</IncompleteForTransferInvoiceCountifDisabled>
+    <InvoiceStatus>Incomplete for transfer</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <IncompleteForTransferInvoiceNumber>Auto_Incomplete_BW80_0</IncompleteForTransferInvoiceNumber>
+    <Comments>APT Testing</Comments>
+    <RowNumber>0</RowNumber>
+    <CellNumber>0</CellNumber>
+    <ContextMenu>Add Row</ContextMenu>
+    <CostCenterCode>7810</CostCenterCode>
+    <Net_Sum>40</Net_Sum>
+    <Button_Text>Refresh</Button_Text>    
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>
+  </CompleteInvoiceCodingReTransferInvoice>
+
+  <EditAndValidateSendToProcessPaymentPlan>
+    <TestCase>88884</TestCase>
+    <DraftPaymentPlanCountifDisabled>0</DraftPaymentPlanCountifDisabled>
+    <PaymentPlanStatus>Draft</PaymentPlanStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode> 
+    <DraftPaymentPlanNumber>10_PaymentPlan_1000</DraftPaymentPlanNumber>    
+    <Button_Text>Refresh</Button_Text>
+    <ReferencePerson>Juha Tillqvist</ReferencePerson>
+    <Validate_Button>Validate</Validate_Button>
+    <Send_To_Process_Button>Send to Process</Send_To_Process_Button>      
+  </EditAndValidateSendToProcessPaymentPlan>
+
+  <ChangeRecepientHeaderReviewAndApprovalPaymentPlan>
+    <TestCase>88885</TestCase>
+    <PendingPaymentPlanCountifDisabled>0</PendingPaymentPlanCountifDisabled>
+    <PaymentPlanStatus>Pending</PaymentPlanStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <!--<ReferencePerson>Juha Tillqvist</ReferencePerson>-->
+    <ReferencePerson>Tillqvist Juha</ReferencePerson>
+    <OrganizationCode>BW80</OrganizationCode>
+    <HeaderCell>Plan Name</HeaderCell>
+    <HeaderReviewPaymentPlanNumber>130_PaymentPlan_1001</HeaderReviewPaymentPlanNumber>
+    <ApprovalPaymentPlanNumber>50_PaymentPlan_1002</ApprovalPaymentPlanNumber>
+    <Comments>Forwarding Approval Plan</Comments>
+  </ChangeRecepientHeaderReviewAndApprovalPaymentPlan>
+
+  <ActivateExpiredAndDeactivatePaymentPlan>
+    <TestCase>88888</TestCase>
+    <ExpiredPaymentPlanCountifDisabled>0</ExpiredPaymentPlanCountifDisabled>
+    <PaymentPlanStatus>Expired</PaymentPlanStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <ExpiredPaymentPlanNumber>80_PaymentPlan_1006</ExpiredPaymentPlanNumber>
+    <DeactivatedPaymentPlanNumber>60_PaymentPlan_1005</DeactivatedPaymentPlanNumber>
+  </ActivateExpiredAndDeactivatePaymentPlan>
+
+  <ResendAutomaticMatchingPaymentPlan>
+    <TestCase>88889</TestCase>
+    <ManualMatchingPaymentPlanCountifDisabled>0</ManualMatchingPaymentPlanCountifDisabled>
+    <InvoiceStatus>In manual payment plan matching</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <ManualMatchingPaymentPlanInvoiceNumber1>MatchPlan_0_BW80_1001</ManualMatchingPaymentPlanInvoiceNumber1>
+    <ManualMatchingPaymentPlanInvoiceNumber2>MatchPlan_0_BW80_1000</ManualMatchingPaymentPlanInvoiceNumber2>
+    <ManualMatchingPaymentPlanInvoiceNumber3>MatchPlan_0_BW80_1002</ManualMatchingPaymentPlanInvoiceNumber3>    
+    <Button_Text>Refresh</Button_Text>    
+    <Header_Name_Status>Invoice Number</Header_Name_Status>    
+  </ResendAutomaticMatchingPaymentPlan>
+
+  <ManualPaymentPlanMatching>
+    <TestCase>88890</TestCase>
+    <ManualMatchingPaymentPlanCountifDisabled>0</ManualMatchingPaymentPlanCountifDisabled>
+    <InvoiceStatus>In manual payment plan matching</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <ManualMatchingPaymentPlanInvoiceNumber1>MatchPlan_0_BW80_1005</ManualMatchingPaymentPlanInvoiceNumber1>
+    <PlanReference1>BW80_60_PaymentPlan_1005</PlanReference1>
+    <!--ScheduledRow>Starts with 0-->
+    <ScheduledRow>10</ScheduledRow>
+    <ManualMatchingPaymentPlanInvoiceNumber2>MatchPlan_0_BW80_1006</ManualMatchingPaymentPlanInvoiceNumber2>
+    <PlanReference2>BW80_80_PaymentPlan_1006</PlanReference2>
+  </ManualPaymentPlanMatching>
+
+  <CancelPaymentPlanMatchingAndRemoveInvoice>
+    <TestCase>88891</TestCase>
+    <ManualMatchingPaymentPlanCountifDisabled>0</ManualMatchingPaymentPlanCountifDisabled>
+    <InvoiceStatus>In manual payment plan matching</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <ManualMatchingPaymentPlanInvoiceNumber>MatchPlan_1_BW80_2</ManualMatchingPaymentPlanInvoiceNumber>
+    <Comments>APT Testing</Comments>
+  </CancelPaymentPlanMatchingAndRemoveInvoice>
+
+  <RequestManualApprovalPaymentPlanAndProcessInvoiceManually>
+    <TestCase>88892</TestCase>
+    <ManualMatchingPaymentPlanCountifDisabled>0</ManualMatchingPaymentPlanCountifDisabled>
+    <InvoiceStatus>In manual payment plan matching</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <UserForRequestManualApproval>Tillqvist Juha</UserForRequestManualApproval>
+    <OrganizationCode>BW80</OrganizationCode>
+    <ManualMatchingPaymentPlanInvoiceNumber>MatchPlan_0_BW80_0</ManualMatchingPaymentPlanInvoiceNumber>
+    <Comments>APT Testing</Comments>
+    <AccountCode>401100</AccountCode>
+    <CostCenterCode>7810</CostCenterCode>  
+    <Tax_Code>F0</Tax_Code>   
+    <Net_Sum>200</Net_Sum>  
+    <Number_Of_Rows>1</Number_Of_Rows>
+  </RequestManualApprovalPaymentPlanAndProcessInvoiceManually>
+
+  <TransferInvoicesSingleAndBatch>
+    <TestCase>88893</TestCase>
+    <TransferFailedInvoiceCountifDisabled>0</TransferFailedInvoiceCountifDisabled>
+    <InvoiceStatus>Transfer failed</InvoiceStatus>
+    <LoginUser>basware\juhat</LoginUser>
+    <OrganizationCode>BW80</OrganizationCode>
+    <TransferfailedInvoiceNumber>Auto_TransferFailed_BW80_0</TransferfailedInvoiceNumber>
+    <ReadyForTransferInvoice1>MatchPlan_0_BW80_1005</ReadyForTransferInvoice1>
+    <ReadyForTransferInvoice2>MatchPlan_0_BW80_1006</ReadyForTransferInvoice2>   
+    <Button_Text>Refresh</Button_Text>
+    <Header_Name_Status>Sub-Status</Header_Name_Status>
+    <InvoiceNumberColumn>Invoice Number</InvoiceNumberColumn>
+    <VerifyFinalStatus>Storaging in progress</VerifyFinalStatus>
+  </TransferInvoicesSingleAndBatch>  
+
+  <FindLogic>
+    <Locators>AutomationID</Locators>
+    <MyTasks_PaymentPlan_Approved_Button_AutomationID>PP.Views.MyTasksToolbar.Approve_Button_Text</MyTasks_PaymentPlan_Approved_Button_AutomationID>
+    <MyTasks_PaymentPlan_Reveiw_Button_AutomationID>PP.Views.MyTasksToolbar.Review_Button_Text</MyTasks_PaymentPlan_Reveiw_Button_AutomationID>
+    <MyTasks_Invoice_Approve_Button_AutomationID>IA.UIElements.MyTasksToolbar.HeaderApprove_Button_Text</MyTasks_Invoice_Approve_Button_AutomationID>
+    <MyTasks_Invoice_Review_Button_AutomationID>IA.UIElements.MyTasksToolbar.Review_Button_Text</MyTasks_Invoice_Review_Button_AutomationID>
+  </FindLogic>
+</P2PIntegration_TestData> 

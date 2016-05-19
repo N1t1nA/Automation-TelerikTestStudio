@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{41FE4B46-BFCE-42D7-9E61-D714510E431D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\paket.dependencies = ..\..\paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P.Testing.Shared", "P2P.Testing.Shared\P2P.Testing.Shared.csproj", "{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0E3F363-3C32-43CF-95AC-06038B78F9B0}"
+	ProjectSection(SolutionItems) = preProject
+		APT_InternetExplorer.testsettings = APT_InternetExplorer.testsettings
+		Chrome.testsettings = Chrome.testsettings
+		Firefox.testsettings = Firefox.testsettings
+		Local.testsettings = Local.testsettings
+		SilverlightUIVS2013.vsmdi = SilverlightUIVS2013.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E2E", "E2E\E2E.csproj", "{C3B7CECA-B2ED-4D2F-A9F2-31C914EFA337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APT", "APT\APT.csproj", "{F7B0BCAC-9976-4461-9D93-2096E7FB522E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B7CECA-B2ED-4D2F-A9F2-31C914EFA337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B7CECA-B2ED-4D2F-A9F2-31C914EFA337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B7CECA-B2ED-4D2F-A9F2-31C914EFA337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B7CECA-B2ED-4D2F-A9F2-31C914EFA337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B0BCAC-9976-4461-9D93-2096E7FB522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B0BCAC-9976-4461-9D93-2096E7FB522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B0BCAC-9976-4461-9D93-2096E7FB522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B0BCAC-9976-4461-9D93-2096E7FB522E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SilverlightUI.vsmdi
+		{5378F1E1-4505-47D0-B3E3-DB42D79D7B63} = {803FD763-5301-4E27-94E9-3F41A4719535}
+	EndGlobalSection
+EndGlobal

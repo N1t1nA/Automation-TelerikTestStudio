@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferlgveigrv.d0l" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferapqj1lih.bpl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferg4odb2eo.uno" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfervxl4qlv3.s2e" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferngn22n52.qnj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferpfgi3xnl.0p4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer3bct3ge0.val" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferump4k15h.mkp" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferwbu2oymd.2h1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfersg0omxks.szo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferpz4nz1jq.04r" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferyccpkgo5.1aw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferqvhjzwn3.405" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer0jbl343x.qsw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer23aitrka.nx4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfervygqjrlz.ao4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferi1yn1c5p.4ik" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer2hxtfqcv.wx5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer0xx1x1gt.who" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfervwrf2bro.xck" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfercutic533.axt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferffrkgdks.z4f" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfery2ulmisw.bbm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfercvxqhhh3.mex" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferqa5qc0kr.3mg" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferz5j4ad4h.zbw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfercfopcw5a.f3g" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfera0h4rkaz.tkg" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer3mzblwng.3va" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferboo2a2kw.cu3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferuwskku33.zv5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer130nhw4g.3c5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferxrum44rh.qbw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferzugbbhjf.n2k" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferhuo04foo.q02" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfertku1pvgv.4t2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfergrtf2w3u.fvn" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer3seocrxs.0ih" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferwgouitmr.uyt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferfsyecxgh.rhs" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer11e3jvpw.fvu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferxolgdy3g.x5m" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferkhcgts3k.2dz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferfxpjfy3p.2vh" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferutoveeer.hsz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfers3mkmxkk.zwe" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfermofm33xu.hoh" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferel5ejwii.urc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfere4kbryd2.yxm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferi1ohxaaz.blo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferyzb4ppx4.ygu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer4lp0ymoq.hyw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferjc2qi04f.44r" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferu5wkwdfy.rsb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfergb0cwkch.t33" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferqt3vsle4.gig" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferdtvehjqv.ghi" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfercoaa0pfl.ei2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfermob24gh2.vva" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferjm5gggjl.1qa" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferitip43z5.pka" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferdxxd4qan.q10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer4wr1sway.v3g" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferkxentkxr.op2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferyawm5hbb.ogw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer25wluym5.gpd" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfersrou2dj5.emf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer5v55y0wi.bhc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferafvjve3q.vhi" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferuohkd3kf.ss4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferyugbixqa.vrr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfertkdggciy.ci5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer5xg3cdis.rau" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfercer0gbcn.za2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer4sg1pib4.mjb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfers20uobym.5z2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer13nvpd5o.yyl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferogbj3p5h.vls" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferkqwhp5yi.eg5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfere4krdwhc.nna" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferap03m0uk.rs2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer3zr53qj3.34d" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferzd1byenc.xgl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfero2ramjyu.h4n" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferejm21lpu.rcu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferbdwab3ix.0w2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfern05gk014.vhv" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfergs5hprjg.xws" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer3ne5rn5k.0hg" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferwmbkm2qq.aoz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfertvw2jfwp.q5a" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfer2hccmqlx.vvw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transferogexyxmo.pms" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfertl3mp0kj.ctp" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_InvoiceWorkflow_HA_RA_AA_Transfersqj5yxox.arj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="E2E_Invoice_ManualMatch_PaymentPlangjhwv1c2.y3i" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlande1eerkv.foa" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlancpmdzfdm.hq1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlansp2gbfin.cmc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanfdpkgxqb.c0l" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlansldteai3.2s1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlangpl5tnzr.eki" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan0k5gsrm1.dio" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan4fyrvbdt.0pd" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan50mvdznr.iw3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanjdvqvvjr.4kf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanjkm2wd1y.bnw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanvrpc5bkv.z3g" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlandeaf4wtc.2ru" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanebdexsrc.gif" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlancqfcl2o3.rip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantyfizji3.yks" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanxnj2qpmx.db2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlane4qswgy4.zxw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan51miqd4m.5f4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlansvpqjwha.zhe" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan01lqmi53.p15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanqb2u4mut.22e" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanuux4sq2d.53y" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantkkpcwld.qwr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanswz4tzvo.ofy" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlaniqrlykit.eev" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan3fntngzb.tlf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanomm005fu.du4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanesq5l53w.4dm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlankiaoa15q.10h" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanx5ue4xgk.kur" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlang5qhnum0.ra2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlane1usj2av.a2n" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanc1xysmbl.10a" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanrrpjocdu.0cy" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanoluowc00.ivo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanugba1ti4.vvz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlansqxltasj.nr5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan3leeskqv.oky" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanwpcuqazr.5kk" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan3lemptkn.kx0" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanraqiv0gs.3tf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanworyj5ms.ei5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanpnfh023e.b4a" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan0xvcyuzr.3ek" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanpc4ojzdu.itp" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanhxc2jttq.4o2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantntcp1wv.f1x" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantcysufid.vyq" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanaspffdbw.tug" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanzazbgyxt.fce" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanebsnzcgn.lqe" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlankjf13wsn.ups" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanwdlb0vc2.ous" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanqi1sgjfr.1xk" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan5l1yfah0.heo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantsvvjwvt.4vz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanx1id5g5t.r5a" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanipymor0t.5b3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan1jdwzadl.5fb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanwkwllgo4.qua" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanzyqeplcn.2o5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanuo3hqz4d.fmy" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlansiqn3hka.pgc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlangkwcop1h.jao" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanqwolie3c.dv5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanmpu214f2.npz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanqpak01ah.0mj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanpgxbwzyy.gfe" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanqarsvivu.45j" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanwppb10un.zxa" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlankcgybgwo.xhx" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlantmlmvsni.2mi" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan1nng1xr4.qiy" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan1klk5wpq.dma" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan3i4zijpz.ffh" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanbbkhz51r.3dz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanun2py4dn.hrw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanflzumjla.t3e" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanpffzimz4.3ql" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanksikfoue.cmx" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan2bgwk4hc.2pj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlandrhr0lft.mp5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanxemazuri.ta1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanfgcdx0qz.ow5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanwniug4ii.xrr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanj44fxw4j.yqs" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlank5foqzgb.oac" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanus4dykz5.jzo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan1gbvbddp.jis" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanaa24dv53.amf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanblwoex1r.oad" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanx5ov0nhy.e1j" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlannmwo5eg2.zck" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan05r0ivn0.xch" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanxz2g40fq.1gs" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlan53f351q5.w43" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlangl3ejjps.tii" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanp0pminsy.mgl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanf1d12ils.r1k" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlaniagbcmzm.gml" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanplo4vnae.kb1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanjak4ffhg.lro" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanev0qqhp4.r10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlank0f1t4sg.ylo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlans5xpzgmj.cai" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanzuwvyjhx.21v" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlanpz22ymua.qfb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Invoice_ManualMatch_PaymentPlandrwf3lnh.d5t" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+</root>

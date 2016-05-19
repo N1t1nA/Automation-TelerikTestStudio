@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7B0BCAC-9976-4461-9D93-2096E7FB522E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>APT</RootNamespace>
+    <AssemblyName>APT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="ArtOfTest.WebAii" />
+    <Reference Include="ArtOfTest.WebAii.Design" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Telerik.TestStudio.Interfaces, Version=2014.4.1211.0, Culture=neutral, PublicKeyToken=b9f4c4e36181b3de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Telerik.TestStudio.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Html" />
+    <Reference Include="Telerik.WebAii.Controls.Xaml" />
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI" />
+    <Reference Include="Telerik.WebAii.Controls.Xaml.Wpf" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Activate_ExpiredAndDeactivatePaymentPlan.tstest.cs">
+      <DependentUpon>Activate_ExpiredAndDeactivatePaymentPlan.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\CancelApprovalTask_PaymentPlan.tstest.cs">
+      <DependentUpon>CancelApprovalTask_PaymentPlan.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Cancel_PaymentPlanMatching_RemoveInvoice.tstest.cs">
+      <DependentUpon>Cancel_PaymentPlanMatching_RemoveInvoice.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\ChangeRecepient_HeaderReviewAndApproval_PaymentPlans.tstest.cs">
+      <DependentUpon>ChangeRecepient_HeaderReviewAndApproval_PaymentPlans.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\CompleteInvoiceCoding_ReTransferInvoice.tstest.cs">
+      <DependentUpon>CompleteInvoiceCoding_ReTransferInvoice.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\EditAndMatch_NoPOFoundInvoices_Header_ROW_GR.tstest.cs">
+      <DependentUpon>EditAndMatch_NoPOFoundInvoices_Header_ROW_GR.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\EditInvoicesInWorkflow_BatchReview.tstest.cs">
+      <DependentUpon>EditInvoicesInWorkflow_BatchReview.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Edit_Validate_DraftInvoice.tstest.cs">
+      <DependentUpon>Edit_Validate_DraftInvoice.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Edit_Validate_InvalidInvoice.tstest.cs">
+      <DependentUpon>Edit_Validate_InvalidInvoice.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Edit_Validate_SendToProcess_DraftPaymentPlan.tstest.cs">
+      <DependentUpon>Edit_Validate_SendToProcess_DraftPaymentPlan.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\ManualPaymentPlanMatching.tstest.cs">
+      <DependentUpon>ManualPaymentPlanMatching.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\MasterAPTTest.tstest.cs">
+      <DependentUpon>MasterAPTTest.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\RequestManualApprovalPaymentPlan_ProcessInvoiceManually.tstest.cs">
+      <DependentUpon>RequestManualApprovalPaymentPlan_ProcessInvoiceManually.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Resend_AutomaticMatching_PaymentPlan.tstest.cs">
+      <DependentUpon>Resend_AutomaticMatching_PaymentPlan.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\ReviewAndApprove_PaymentPlan.tstest.cs">
+      <DependentUpon>ReviewAndApprove_PaymentPlan.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\TransferInvoices_SingleAndBatch.tstest.cs">
+      <DependentUpon>TransferInvoices_SingleAndBatch.tstest</DependentUpon>
+    </Compile>
+    <None Include="Scripts\Activate_ExpiredAndDeactivatePaymentPlan.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\CancelApprovalTask_PaymentPlan.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\Cancel_PaymentPlanMatching_RemoveInvoice.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\ChangeRecepient_HeaderReviewAndApproval_PaymentPlans.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\CompleteInvoiceCoding_ReTransferInvoice.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\EditAndMatch_NoPOFoundInvoices_Header_ROW_GR.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\EditInvoicesInWorkflow_BatchReview.tstest" />
+    <None Include="Scripts\Edit_Validate_DraftInvoice.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\Edit_Validate_InvalidInvoice.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\APTTestList.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\Edit_Validate_SendToProcess_DraftPaymentPlan.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\ManualPaymentPlanMatching.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\MasterAPTTest.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\RequestManualApprovalPaymentPlan_ProcessInvoiceManually.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\Resend_AutomaticMatching_PaymentPlan.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\ReviewAndApprove_PaymentPlan.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\TransferInvoices_SingleAndBatch.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings.aiis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Edit_Validate_DraftInvoice.resx">
+      <DependentUpon>Edit_Validate_DraftInvoice.tstest</DependentUpon>
+    </None>
+    <None Include="Scripts\Edit_Validate_InvalidInvoice.resx">
+      <DependentUpon>Edit_Validate_InvalidInvoice.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\P2P.Testing.Shared\P2P.Testing.Shared.csproj">
+      <Project>{2bfcc73c-91fa-4f9e-9876-f5f9d7077c0a}</Project>
+      <Name>P2P.Testing.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Edit_Validate_SendToProcess_DraftPaymentPlan.resx">
+      <DependentUpon>Edit_Validate_SendToProcess_DraftPaymentPlan.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Activate_ExpiredAndDeactivatePaymentPlan.resx">
+      <DependentUpon>Activate_ExpiredAndDeactivatePaymentPlan.tstest</DependentUpon>
+    </None>
+    <None Include="Scripts\MasterAPTTest.resx">
+      <DependentUpon>MasterAPTTest.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\ChangeRecepient_HeaderReviewAndApproval_PaymentPlans.resx">
+      <DependentUpon>ChangeRecepient_HeaderReviewAndApproval_PaymentPlans.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\ReviewAndApprove_PaymentPlan.resx">
+      <DependentUpon>ReviewAndApprove_PaymentPlan.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\CancelApprovalTask_PaymentPlan.resx">
+      <DependentUpon>CancelApprovalTask_PaymentPlan.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Resend_AutomaticMatching_PaymentPlan.resx">
+      <DependentUpon>Resend_AutomaticMatching_PaymentPlan.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Cancel_PaymentPlanMatching_RemoveInvoice.resx">
+      <DependentUpon>Cancel_PaymentPlanMatching_RemoveInvoice.tstest</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\RequestManualApprovalPaymentPlan_ProcessInvoiceManually.resx">
+      <DependentUpon>RequestManualApprovalPaymentPlan_ProcessInvoiceManually.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\ManualPaymentPlanMatching.resx">
+      <DependentUpon>ManualPaymentPlanMatching.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\EditInvoicesInWorkflow_BatchReview.resx">
+      <DependentUpon>EditInvoicesInWorkflow_BatchReview.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\CompleteInvoiceCoding_ReTransferInvoice.resx">
+      <DependentUpon>CompleteInvoiceCoding_ReTransferInvoice.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\TransferInvoices_SingleAndBatch.resx">
+      <DependentUpon>TransferInvoices_SingleAndBatch.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\EditAndMatch_NoPOFoundInvoices_Header_ROW_GR.resx">
+      <DependentUpon>EditAndMatch_NoPOFoundInvoices_Header_ROW_GR.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Name="APT" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Telerik\WebUITestStudio\Telerik.WebUITestStudio.targets" />
+</Project>

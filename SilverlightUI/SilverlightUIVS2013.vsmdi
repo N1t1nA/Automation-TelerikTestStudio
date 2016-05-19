@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+    <TestList name="P2P.E2E" id="43d3a3d7-80a0-4a1e-a912-1d0e0a641668" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="042aa3b3-687b-4258-be4d-0c8e08fd0f37" name="E2E_Purchase_FR_IA_AM_Transfer" storage="e2e\scripts\e2e_purchase_fr_ia_am_transfer.tstest" type="ArtOfTest.WebAiiVSIP.WebAiiTest, ArtOfTest.WebAiiVSIP-VS2013,   PublicKeyToken=14176981d1873d86" />
+      <TestLink id="8ed194f8-4200-4879-bae9-c29d0dd2a9f3" name="E2E_Purchase_FF_IA_AM_Transfer" storage="e2e\scripts\e2e_purchase_ff_ia_am_transfer.tstest" type="ArtOfTest.WebAiiVSIP.WebAiiTest, ArtOfTest.WebAiiVSIP-VS2013,   PublicKeyToken=14176981d1873d86" />    
+	    <TestLink id="990904b9-f6ed-4e6c-8e36-14ac6fec3682" name="E2E_Invoice_ManualMatch_PaymentPlan" storage="e2e\scripts\e2e_invoice_manualmatch_paymentplan.tstest" type="ArtOfTest.WebAiiVSIP.WebAiiTest, ArtOfTest.WebAiiVSIP-VS2013,   PublicKeyToken=14176981d1873d86" />
+      <TestLink id="b0af646d-a37f-4966-a057-a3155e5ce00c" name="E2E_InvoiceWorkflow_HA_RA_AA_Transfered" storage="e2e\scripts\E2E_InvoiceWorkflow_HA_RA_AA_Transfered.tstest" type="ArtOfTest.WebAiiVSIP.WebAiiTest, ArtOfTest.WebAiiVSIP-VS2013,   PublicKeyToken=14176981d1873d86" />
+    </TestLinks>
+  </TestList>
+</TestLists>

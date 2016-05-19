@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="E2E_Purchase_FR_IA_AM_Transferdevknlfh.c03" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferb4qks43t.nxj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferpzjghppq.tts" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferl41jzuqi.slr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferxxgehkl4.2hm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer1pbuxlcw.vwu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferltjikg12.mk5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer1ztxcap4.bx5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferibmbgzu3.kum" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfervocqjewh.cxb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferelxsmcxm.sko" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferxr3mrigm.hcu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer2peoulgs.u5u" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferfu4ak1tb.uzx" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferhj0m5mxb.jhj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfergjqzaxdr.fgv" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferjh3253yo.k0c" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferbci2enff.wnf" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferwrwmxy10.y31" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfermdc33km1.dtn" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferct33ecyn.vgc" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer2iugk3or.hft" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferapnwdrte.cxb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferukldmlcu.b0b" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferpei3myx4.c1n" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferugqwlqlw.asy" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfergxmnjyhe.dai" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferv5jffe5y.tyo" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfera5xniccn.yd0" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfervdwfmcba.gf2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferbdupwyrc.pix" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferzkkzapdw.lb0" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferxspzc3ht.duk" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer13vnc3fg.zgx" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferffkgpckq.i3d" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer425gouir.mzq" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferhbl1e0xp.s32" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer5y05dmp3.d3a" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferlmxsyk2m.oav" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer3usc5sxf.zo1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferz2o4odca.5ig" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer5pefpwdf.fo3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferr24jhciy.yqw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferevf02a4t.bh5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferagvmtnvr.fyr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer1cvcfnne.kog" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferbbuhhsqj.1mq" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer4klcut1v.hts" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer3uf52hyv.iml" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferl2dcbnmi.wcr" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferdfqupsgj.ik4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferd4ymtd3f.qro" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer0cl5k1lq.mbu" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferpw0mvgga.l34" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfery5vazefa.kt1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferuowszmbs.ayp" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferxrg1ltzi.qts" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer3bwv1uzv.cn5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferndhm4doo.wqm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer2fp4eve4.pqh" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferd0vo2kkw.kse" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferhe2x2ni2.mbj" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferkt3qwhju.yhh" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferfegxdpwu.hh5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer5oovzgkp.zan" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferlcc4oued.jf0" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferxc3d1ppf.ivq" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer4aejsnvj.rc1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer4ezxemlr.mn0" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferx0m2rqjt.xhd" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfersarxpdik.2mq" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferqupbb01k.pog" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferhw4jw3ai.kpt" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer1jkvii00.fzz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferjidtdret.leb" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferqh4zs0gn.mpe" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferkd5w5xec.aim" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer5h2a3hmp.p50" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer1dpc3wcp.ca4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfer3k22f1m4.d23" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferrslyktjn.2fg" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferniff1znm.g1x" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferd3iltg5s.zei" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferfnneihxh.rga" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfern0zokisy.z0d" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transfertdxw5rom.uw2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferknyzetb1.peg" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferrtcpf011.fhv" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferkfp1hln4.nnl" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferx0lxjx3u.omz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferc24srht0.fd4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferg1jssriz.bkw" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferzerdkkmn.pk1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferpkbk1cfe.gzm" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferbgfdouil.n1r" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E2E_Purchase_FR_IA_AM_Transferyxpwnhl1.ew4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BFCC73C-91FA-4F9E-9876-F5F9D7077C0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>P2P.Testing.Shared</RootNamespace>
+    <AssemblyName>P2P.Testing.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\ArtOfTest.WebAii.dll</HintPath>
+    </Reference>
+    <Reference Include="ArtOfTest.WebAii.Design, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\ArtOfTest.WebAii.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=528163f3e645de45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Translators\Telerik.TestingFramework.Controls.KendoUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.TestStudio.Interfaces, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=b9f4c4e36181b3de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Telerik.TestStudio.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Html, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=528163f3e645de45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Translators\Telerik.WebAii.Controls.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml, Version=2014.4.1211.0, Culture=neutral, PublicKeyToken=528163f3e645de45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Translators\Telerik.WebAii.Controls.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml.Wpf, Version=2014.3.903.0, Culture=neutral, PublicKeyToken=528163f3e645de45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Telerik\Test Studio\Bin\Translators\Telerik.WebAii.Controls.Xaml.Wpf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\AddXslLine.cs" />
+    <Compile Include="Class\ArchiveTestResults.cs" />
+    <Compile Include="Class\ConfigTool\P2PConfigToolConfigurationArea.cs" />
+    <Compile Include="Class\DataManagement\P2PDataManagementVerifications.cs" />
+    <Compile Include="Class\DataManagement\PaymentPlans\Create\P2PPaymentPlanCreateDataManagement.cs" />
+    <Compile Include="Class\EdXmlReader.cs" />
+    <Compile Include="Class\InvoiceAdministration\Create\P2PCreateInvoice.cs" />
+    <Compile Include="Class\InvoiceAdministration\InvoiceDetails\P2PInvoiceAdministrationImageActions.cs" />
+    <Compile Include="Class\InvoiceAdministration\InvoiceDetails\P2PInvoiceAdministrationInvoiceDetails.cs" />
+    <Compile Include="Class\InvoiceAdministration\P2PInvoiceAdministrationVerification.cs" />
+    <Compile Include="Class\InvoiceAdministration\P2PServices.cs" />
+    <Compile Include="Class\InvoiceAdministration\Search\P2PInvoiceAdministrationSearch.cs" />
+    <Compile Include="Class\InvoiceAdministration\Support\P2PCollaborate.cs" />
+    <Compile Include="Class\InvoiceAdministration\ToolbarActions\P2PInvoiceAdministrationToolbarActions.cs" />
+    <Compile Include="Class\P2PExceptionHandler.cs" />
+    <Compile Include="Class\P2PLogin.cs" />
+    <Compile Include="Class\P2PNavigation .cs" />
+    <Compile Include="Class\PaymentPlans\Create\P2PCreatePaymentPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\PaymentPlans\InvoiceDetails\P2PPaymentPlansDetails.cs" />
+    <Compile Include="Class\PaymentPlans\MyTasks\P2PPaymentPlansMyTasks.cs" />
+    <Compile Include="Class\PaymentPlans\P2PPaymentPlansVerification.cs" />
+    <Compile Include="Class\PaymentPlans\Search\P2PPaymentPlansSearch.cs" />
+    <Compile Include="Class\PaymentPlans\ToolbarActions\P2PPaymentPlansToolbarActions.cs" />
+    <Compile Include="Class\Purchase\Create\P2PCreatePurchaseItems.cs" />
+    <Compile Include="Class\Purchase\Create\P2PCreateWelcomePage.cs" />
+    <Compile Include="Class\Purchase\Create\P2PPurchasingCategories.cs" />
+    <Compile Include="Class\Purchase\GoodsReceipts\P2PGoodsReceiptsSearch.cs" />
+    <Compile Include="Class\Purchase\GoodsReceipts\P2PGoodsReceiptsToolbarActions.cs" />
+    <Compile Include="Class\Purchase\GoodsReceipts\P2PGoodsReceiptsVerification.cs" />
+    <Compile Include="Class\Purchase\GoodsReceipts\P2PGoodsReceiptsDetails.cs" />
+    <Compile Include="Class\Purchase\P2PPurchaseDataManagementVerification.cs" />
+    <Compile Include="Class\Purchase\P2PPurchaseVerification.cs" />
+    <Compile Include="Class\Purchase\Search\P2PPurchaseDataManagementSearch.cs" />
+    <Compile Include="Class\Purchase\Search\P2PPurchaseSearch.cs" />
+    <Compile Include="Class\Purchase\ToolbarActions\P2PPersonalModeSearch.cs" />
+    <Compile Include="Class\Purchase\ToolbarActions\P2PPurchaseDataManagementToolbarActions.cs" />
+    <Compile Include="Class\Purchase\ToolbarActions\P2PPurchaseLineRquisitionToolBarActions.cs" />
+    <Compile Include="Class\Purchase\ToolbarActions\P2PPurchaseOrdersToolbarActions.cs" />
+    <Compile Include="Class\WebShop\P2PWebShopVerifications.cs" />
+    <Compile Include="Class\WebShop\Search\P2PWebShop.cs" />
+    <Compile Include="Class\P2P_Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\busyindicatortest.tstest.cs">
+      <DependentUpon>busyindicatortest.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Script\P2P Test Results\P2P_EditTestResultMatchingMainSQL.tstest.cs">
+      <DependentUpon>P2P_EditTestResultMatchingMainSQL.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Script\P2P Test Results\P2P_EditTestResultIAMainSQL.tstest.cs">
+      <DependentUpon>P2P_EditTestResultIAMainSQL.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Script\P2P Test Results\P2P_ArchiveTestResults.tstest.cs">
+      <DependentUpon>P2P_ArchiveTestResults.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Script\P2P Test Results\P2P_EditTestResultsORACLE.tstest.cs">
+      <DependentUpon>P2P_EditTestResultsORACLE.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="Script\P2P Test Results\P2P_EditTestResultSQL.tstest.cs">
+      <DependentUpon>P2P_EditTestResultSQL.tstest</DependentUpon>
+    </Compile>
+    <None Include="Elements\CommonElements.tstest" />
+    <None Include="Elements\ConfigToolElements.tstest" />
+    <None Include="Elements\CreateElements.tstest" />
+    <None Include="Elements\InWorkFlowElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\MatchingElements.resx">
+      <DependentUpon>MatchingElements.tstest</DependentUpon>
+    </None>
+    <None Include="Elements\MatchingElements.tstest" />
+    <None Include="Elements\MyTasksElements.tstest" />
+    <None Include="Elements\OverviewElement.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\PaymentPlansElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\PersonalModeSearchElements.tstest" />
+    <None Include="Elements\PurchaseDataManagement.resx">
+      <DependentUpon>PurchaseDataManagement.tstest</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Elements\PurchaseDataManagement.tstest" />
+    <None Include="Elements\Purchase_MyTaskElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\ReceivedElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\SupportElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\TransferElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Elements\WebShopElements.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\busyindicatortest.tstest" />
+    <None Include="Script\P2P Test Results\P2P_EditTestResultMatchingMainSQL.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultIAMainSQL.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultsORACLE.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Data\E2E_TestData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Script\P2P Test Results\P2P_ArchiveTestResults.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultSQL.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\P2P Test Results\P2PSilverlight_EditTestResult.tstest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings.aiis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\ReceivedElements.resx">
+      <DependentUpon>ReceivedElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\CommonElements.resx">
+      <DependentUpon>CommonElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\ConfigToolElements.resx">
+      <DependentUpon>ConfigToolElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\TransferElements.resx">
+      <DependentUpon>TransferElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\InWorkFlowElements.resx">
+      <DependentUpon>InWorkFlowElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\APT_TestData.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UploadFiles\Sample.tiff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultSQL.resx">
+      <DependentUpon>P2P_EditTestResultSQL.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2PSilverlight_EditTestResult.resx">
+      <DependentUpon>P2PSilverlight_EditTestResult.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2P_ArchiveTestResults.resx">
+      <DependentUpon>P2P_ArchiveTestResults.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\OverviewElement.resx">
+      <DependentUpon>OverviewElement.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\CreateElements.resx">
+      <DependentUpon>CreateElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultsORACLE.resx">
+      <DependentUpon>P2P_EditTestResultsORACLE.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\SupportElements.resx">
+      <DependentUpon>SupportElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\MyTasksElements.resx">
+      <DependentUpon>MyTasksElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultIAMainSQL.resx">
+      <DependentUpon>P2P_EditTestResultIAMainSQL.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\P2P Test Results\P2P_EditTestResultMatchingMainSQL.resx">
+      <DependentUpon>P2P_EditTestResultMatchingMainSQL.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\busyindicatortest.resx">
+      <DependentUpon>busyindicatortest.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\PaymentPlansElements.resx">
+      <DependentUpon>PaymentPlansElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\WebShopElements.resx">
+      <DependentUpon>WebShopElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class\DataManagement\Invoices\Create\" />
+    <Folder Include="Class\DataManagement\Invoices\Search\" />
+    <Folder Include="Class\DataManagement\PaymentPlans\Search\" />
+    <Folder Include="Class\DataManagement\Purchase\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\Purchase_MyTaskElements.resx">
+      <DependentUpon>Purchase_MyTaskElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\PersonalModeSearchElements.resx">
+      <DependentUpon>PersonalModeSearchElements.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Name="P2P.Testing.Shared" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Telerik\WebUITestStudio\Telerik.WebUITestStudio.targets" />
+</Project>
